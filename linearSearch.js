@@ -1,8 +1,11 @@
-const list = ['b', 'a', 'c', 'a', 'd', 'a'];
+let array = ["b", "a", "c", "a", "d", "a"];
+let newArray = [];
 
-function search(letter, list) {
-    for (let i = 0; i < list.length; i++) {
-        findIndex.list[i](letter);
-    }return;
+function search(arr, elem) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === elem) {
+            newArray.push(arr[i]);
+        }
+    } return newArray;
 }
-search('a');
+search(array, "a");
