@@ -1,4 +1,4 @@
-//VET WHO CODE
+//VETS WHO CODE
 
 /*function addNumbers(firstNumber, secondNumber, thirdNumber) {
     while ((firstNumber + secondNumber) <= thirdNumber) {
