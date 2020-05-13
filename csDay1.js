@@ -75,3 +75,26 @@ BStack(9);*/
     TimeToLaunch(num);
 }
 TimeToLaunch(10);*/
+
+
+// Fibonnacci attempt
+/*function fibo(n) {
+    let first = '0';
+    let second = '1';
+
+    if (n >= 1000) {
+        console.log("That's enough!");
+        return;
+    }
+       // n = (x(x-1)) + (x(x-2));
+        let new = n + (n-1);
+        // 1 = 0 + 1
+        second = new;
+        // 1 = 1
+        first = second; 
+        //1 = 1
+        let n = new;
+        // 1 = 1
+    fibo(n);
+}
+fibo(25);*/
