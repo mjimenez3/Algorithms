@@ -19,5 +19,7 @@ class sports {
 
 let num1 = new sports('John', 'Dodgers', 'Steelers', 'Lakers');
 let mike = new sports('mike', 'angels', 'rams', 'clippers');
+let samuel = new sports('samuel', 'padres', 'patriots', 'warrior');
 num1.print();
 mike.print();
+samuel.print();
